@@ -35,12 +35,12 @@ public class Tracker {
     }
 
     public void showScore() {
-        System.out.println( "Total score of face 1: " + getResultOne() + "\n" +
-                "Total score of face 2: " + getResultTwo() + "\n" +
-                "Total score of face 3: " + getResultThree() + " times\n" +
-                "Total score of face 4: " + getResultFour() + " times\n" +
-                "Total score of face 5: " + getResultFive() + " times\n" +
-                "Total score of face 6: " + getResultSix() + " times\n\n");
+        System.out.println( "Total times of face 1: " + getResultOne() + "\n" +
+                "Total times of face 2: " + getResultTwo() + "\n" +
+                "Total times of face 3: " + getResultThree() + " times\n" +
+                "Total times of face 4: " + getResultFour() + " times\n" +
+                "Total times of face 5: " + getResultFive() + " times\n" +
+                "Total times of face 6: " + getResultSix() + " times\n\n");
     }
 
     public int getResultOne() {
